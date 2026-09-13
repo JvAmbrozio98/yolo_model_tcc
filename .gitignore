@@ -1,0 +1,21 @@
+# Dados brutos e convertidos do dataset
+raw_data/
+dataset/
+
+# Caso você salve imagens temporárias, recortes ou testes de pré-processamento
+*.png
+*.jpeg
+*.jpg
+
+# Ignorar ambientes virtuais Python
+tcc_env/
+venv/
+.venv/
+
+# Ignorar checkpoints do PyTorch e saídas do YOLO
+runs/
+*.pt
+*.onnx
+
+# Ignorar arquivos do Jupyter Notebook
+.ipynb_checkpoints/
